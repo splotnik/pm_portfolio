@@ -1,0 +1,5 @@
+1. make changes to files
+2. to see your status: git status
+3. to add files that you want to commit: git add .
+4. commit the changes: git commit -m "commit message" 
+5. push the changes to github: git push

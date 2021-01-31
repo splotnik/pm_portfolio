@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <link href="//db.onlinewebfonts.com/c/6cec834e2e8f2e4206567ed75e1281d4?family=Brandon+Grotesque+Bold" rel="stylesheet"
+            type="text/css" />
+        <link rel="stylesheet" href="saladbowl.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+            integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <!-- <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+        <script defer>const swup = new Swup()</script> -->
+        <title>Salad Bowl Game</title>
+    </head>
+<body>
+    <!-- Header section   -->
+    <div class="container-fluid top-nav sticky-top">
+            <div class="row justify-content-between align-items-center">
+                <div id="back-button" class="col-4">
+                    <a href="index.html">
+                        <i class="material-icons" style="float: left;">navigate_before</i>
+                        <h3> Back</h3>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <img id="logo" src="photos/salad.png">
+                </div>
+            </div>
+        </div>
+    <!-- title of project     -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1>Salad Bowl Game</h1>
+                <p>(low fidelity)</p>
+            </div>
+        </div>
+    <!-- Value proposition -->
+        <div class="container">
+            <h5> <b>Value Proposition:</b> Similarly to the game "Heads Up", the appification of the "Salad Bowl" game
+                 increases the convenience and accessiblity with which the game can played.</h5>
+        </div>
+    <!-- Rules of the game -->
+        <div class="container">
+            <h5><b>Rules of the Game</b></h5>
+            <ol>
+                <li>All players contribute to a bank of topics that will be picked at random during 3 rounds of game play. </li>
+                <li>All players split up into two teams.</li>
+                <li>Each person on each team will have 1 turn to present a 
+                    randomly selected topic from the pot during each round of gameplay.</li>
+                <li>In the first round, each player has to try and describe as many topics as possible to his team without saying any of the
+                words written on the topic card. </li>
+                <li>In the second round, each player has to try and have his team guess as many topics as possible by giving only a one word
+                hint for each topic.</li>
+                <li>In the third round, each player has to act out as many topics as possible.</li>
+                <li>The team with the most guessed topics after three rounds wins!</li>
+            </ol>
+        </div>
+
+        <!-- User flow -->
+        <div class="container">
+            <h3 class="text-center"><b>User Flow</b></h3>
+            <div class="row">
+                <div class="col-6">
+                    <p class="flow-explanation">No sign up required, there is either an option to create a game or join an exisiting one.</p>
+                </div>
+                <div class="col-6 text-center">
+                    <img src="photos/SaladBowlStartScreen.png" style="max-width: 45%;">
+                 </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <p class="flow-explanation">If a player chooses to create a game they are brought to screen to enter the number of players that will be participating.</p>
+                </div>
+                <div class="col-6 text-center">
+                    <img src="photos/CreateGameSaladBowl.gif" style="max-width: 45%;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <p class="flow-explanation">After entering the player quantity the player creating the game is brought to a screen with a game code to give other
+                    players and place to input suggestions for the salad bowl.</p>
+                </div>
+                <div class="col-6 text-center">
+                    <img src="photos/SelectPlayersSaladBowl.gif" style="max-width: 45%;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <p class="flow-explanation">If a player chooses to join a game, they are asked to put in game code and brought to screen where they can start
+                    inputting suggestions.</p>
+                </div>
+                <div class="col-6 text-center">
+                    <img src="photos/JoinGameSaladBowl.gif" style="max-width: 45%;">
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-6">
+                <p class="flow-explanation">Once a user joined or created a game, they will be able to enter their topics into a shared "bowl" of topics.</p>
+            </div>
+            <div class="col-6 text-center">
+                <img src="photos/WriteAndSubmitTopicsSaladBowl.gif" style="max-width: 45%;">
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-6">
+                    <p class="flow-explanation">The player creating the game can choose to close submission to the game and proceed to a screen asking a player from the first team to start their turn.</p>
+                </div>
+                <div class="col-6 text-center">
+                    <img src="photos/StartGameSaladBowl.gif" style="max-width: 45%;">
+                </div>
+           </div> 
+        <div class="row">
+            <div class="col-6">
+                <p class="flow-explanation">Once a player starts the turn they will be brought to a screen with a 30 second timer, a random topic, and indicator of
+                the round type. They will then play the turn until time runs out, and swipe left or right depending on which topic their team was able to guess.</p>
+            </div>
+            <div class="col-6 text-center">
+                <img src="photos/PlayFirstRoundSaladBowl.gif" style="max-width: 45%;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <p class="flow-explanation">After the turn ends, a different version of the game screen will appear but with a design indicating its the turn of a player on the
+                other team. </p>
+            </div>
+            <div class="col-6 text-center">
+                <img src="photos/SecondPlayerSaladBowl.gif" style="max-width: 45%;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <p class="flow-explanation">When each user played a turn in each of the three rounds the game ends and a screen showing the final score is revealed.</p>
+            </div>
+            <div class="col-6 text-center">
+                <img src="photos/EndGameScreenSaladBowl.gif" style="max-width: 45%;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <p class="flow-explanation">Players will have the option to either restart the game and enter fresh suggestions...</p>
+            </div>
+            <div class="col-6 text-center">
+                <img src="photos/RestartNewGameSaladBowl.gif" style="max-width: 45%;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <p class="flow-explanation">Or players could restart the game using the same topics.</p>
+            </div>
+            <div class="col-6 text-center">
+                <img src="photos/RestartSameGameSaladBowl.gif" style="max-width: 45%;">
+            </div>
+        </div>
+        </div>
+</body>
+</html>

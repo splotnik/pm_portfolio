@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+#back-button a i {
+    font-size: 36px;
+    float: left;
+}
+#back-button a h3 {
+    float: left;
+    /* font-weight: bolder; */
+}
+#back-button a {
+    color: #ffffff;
+    
+}
+#back-button a h3:hover {
+    font-weight: bolder;
+    
+}
+
+#logo {
+    max-height:5rem; 
+    max-width: 25%;   
+}
+.top-nav{
+    background-image: url("photos/saladbowlbackground.png");
+    background-color: #dd8502;
+    background-repeat: repeat ;
+    background-size: contain;
+    opacity: 100%;
+    margin-top: 0;
+    position: sticky;
+}
+.flow-explanation{
+    font-size: 150%;
+    vertical-align: 150px;
+    margin-top: 3rem;
+}
+.container{
+    margin-top: 2rem;
+}

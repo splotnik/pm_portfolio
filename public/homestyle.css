@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: "Lato";
+}
+.navbar{
+    height: 5rem;
+    background-color: #011B36;
+    color: #ffffff;
+    font-size: 115%;
+    
+    
+}
+.nav{
+    width: 100%;
+
+}
+
+.nav-link.active {
+    border-bottom: 3px solid #41F4FF;
+}
+.nav-item {
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+.nav-item a{
+    color: #ffffff;
+}
+
+
+h1{
+    font-weight: bold;
+}
+
+
+.jumbotron{
+    background-color: #ffffff;
+    height: 10rem;
+    margin-top: 6rem;
+}
+#latest-projects{
+    color: #a7a7a7;
+}
+#past-experience-section{
+    color: #41F4FF;
+}
+.container #past_experience {
+    border-radius: 1rem;
+}
+.card{
+  box-shadow: 3rem;  
+}
+.card-deck{
+    margin-top: 2rem;
+}
+.card-footer{
+    background-color: white;
+
+    
+}
+.card-footer.text-center a{
+    color: #41F4FF ;
+    font-weight: bold;
+}
+.section{
+    /* margin-bottom: 2rem; */
+    margin-top: 2rem;
+    max-width: 100%;
+}
+.underline{
+    /* margin-left:35%;
+    margin-right:35%;
+    padding:0;
+    border-bottom: 3px solid #41F4FF;*/
+    text-decoration: underline;
+    text-decoration-color:#96F14F;
+    
+}
+.logo{
+    max-width:120%;
+    max-height:100%;    
+}
+.current-role-section{
+    background-color: #011B36;
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+.current-role-section h4{
+    color:#69BE28;
+}
+.row{
+    max-width: 100%;
+    max-height: 100%;
+}
+.current-role-section .container{
+    background-color: #ffffff;
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    max-height: 100%;
+    border-radius: 1rem;
+    
+    
+    
+    
+}
+.current-role-section .container .container{
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    
+
+    
+}
+.section h4{
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.role-name{
+    padding-top: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+.role{
+    padding-top: 1rem;
+    /* margin-bottom: 1rem; */
+    
+}
+
+.slide{
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.row ul{
+    font-size: 17px;
+}
+li span{
+    line-height: 2.5rem;
+}
+.carousel-indicators{
+    
+    padding-bottom: 1rem;
+    position: relative;
+
+}
+.carousel-indicators li{
+    background-color: rgb(158, 158, 158);
+    height: .5rem;
+    border:2px solid black;
+    border-radius:1rem;
+
+}
+.carousel-indicators .active {
+    background-color: #96F14F;
+}
+.carousel-inner{
+    max-height: 100%;
+    max-width: 100%;
+    height: 450px;
+}
+.past_experience_container{
+    max-height: 100%;
+    /* max-width: 100%; */
+    padding-top: 1rem;
+    /* padding-bottom: 2rem; */
+    border: 3px solid #011B36;
+    border-radius: 1rem;
+}
+.btn.btn-primary{
+    background-color: #011B36;
+    border: none;
+    size: 4rem;
+}
+
+.download-section{
+    margin-bottom: 1.5rem;
+}
+
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}

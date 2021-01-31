@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+body{
+    font-family: Noto Sans;
+}
+#back-button a i {
+    font-size: 36px;
+    float: left;
+}
+#back-button a {
+    color: #ffffff ;
+    text-decoration: none;
+}
+#logo {
+    max-height:80%; 
+    max-width: 90%;   
+}
+.top-nav{
+    background-image: url("photos/PlayXFLbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+}
+#back-button a h3:hover {
+    font-weight: bolder;
+    text-decoration: none;
+}
+h1 {
+    color: #072B7B;
+    font-weight: bold;
+}
+div h4{
+    color: #072B7B;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.pros{
+    color: #0C4E8D;
+}
+.cons{
+    color:#BD0611
+}
+#current-design-text ul{
+    font-size: 1.5rem;
+}
+#current-design-text h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#proposed-design-text ul{
+    font-size: 1.5rem;
+}
+
+.container{
+    margin-top: 1.5rem;
+}
+
+.description{
+    margin-top: 2rem;
+}
+
+
+

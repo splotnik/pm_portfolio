@@ -48,20 +48,40 @@ h1{
     border-radius: 1rem;
 }
 .card{
-  box-shadow: 3rem;  
+  box-shadow: 3rem;
+  /* max-width: 20%; */
+  
 }
 .card-deck{
     margin-top: 2rem;
+    max-height: 100%;
+
 }
+ /* .card-img-top{
+    max-height: 100%;
+}  */
 .card-footer{
     background-color: white;
-
-    
-}
-.card-footer.text-center a{
     color: #41F4FF ;
+ 
+}
+.card-footer.text-center{
+    color: #41F4FF ;
+    /* font-weight: bold; */
+    text-decoration: none;
+}
+.card-footer.text-center :hover{
+    color: #41F4FF ;
+    text-decoration: none;
     font-weight: bold;
 }
+.btn.btn-primary.project-link{
+    background-color:  #011B36;
+    width: 100%;
+    border-color: white;
+}
+
+
 .section{
     /* margin-bottom: 2rem; */
     margin-top: 2rem;
@@ -169,10 +189,18 @@ li span{
     border: 3px solid #011B36;
     border-radius: 1rem;
 }
-.btn.btn-primary{
+.btn.btn-primary.resume-download{
     background-color: #011B36;
     border: none;
     size: 4rem;
+}
+.btn.btn-primary.resume-download :hover{
+    background-color: #011B36;
+    border: none;
+    size: 4rem;
+    font-weight: bold;
+    text-decoration: none;
+
 }
 
 .download-section{
